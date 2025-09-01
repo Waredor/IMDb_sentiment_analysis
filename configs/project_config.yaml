@@ -1,0 +1,3 @@
+data_path: D:\Python projects\IMDb_sentiment_analysis\data\IMDB Dataset_tokenized.csv
+output_model_filename: logistic_regression.pkl
+raw_data_path: D:\Python projects\Datasets\IMDb dataset\IMDB Dataset.csv
