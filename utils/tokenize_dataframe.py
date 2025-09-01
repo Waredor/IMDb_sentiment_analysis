@@ -67,7 +67,11 @@ with open(PIPELINE_CONFIG_PATH, mode='r', encoding='utf-8') as f:
     yaml_data = yaml.safe_load(f)
 
 DATA_PATH = yaml_data['raw_data_path']
-DATA_OUTPUT_PATH = os.path.join(PROJECT_ROOT_PATH, 'data', 'IMDB Dataset_tokenized.csv')
+DATA_OUTPUT_DIR = os.path.join(PROJECT_ROOT_PATH, 'data')
+
+os.makedirs(DATA_OUTPUT_DIR, exist_ok=True)
+
+DATA_OUTPUT_PATH = os.path.join(DATA_OUTPUT_DIR, 'IMDB Dataset_tokenized.csv')
 
 vectorizer = TfidfVectorizer()
 
@@ -82,15 +86,6 @@ logger.info('tokenize text data')
 
 data['tokens'] = data['review'].apply(tokenize_text_on_words)
 data['token_string'] = data['tokens'].apply(lambda x: ' '.join(x))
-
-
-logger.info('creating tf-idf matrix')
-
-tfidf_matrix = vectorizer.fit_transform(data['token_string'])
-feature_names = vectorizer.get_feature_names_out()
-
-tfidf_df = pd.DataFrame(tfidf_matrix.toarray(), columns=feature_names)
-tfidf_df['sentiment'] = data['sentiment']
 
 
 logger.info('saving data')
