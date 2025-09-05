@@ -1,0 +1,24 @@
+make_embeddings.py[LINE:60]# INFO     [2025-09-03 20:27:29,536] configuring paths
+make_embeddings.py[LINE:79]# INFO     [2025-09-03 20:27:29,537] reading dataframe
+make_embeddings.py[LINE:87]# INFO     [2025-09-03 20:27:41,494] train Word2Vec model
+make_embeddings.py[LINE:99]# INFO     [2025-09-03 20:29:27,480] get token embeddings
+make_embeddings.py[LINE:107]# INFO     [2025-09-03 20:29:27,585] save embeddings dict
+make_embeddings.py[LINE:60]# INFO     [2025-09-03 20:29:52,440] configuring paths
+make_embeddings.py[LINE:79]# INFO     [2025-09-03 20:29:52,441] reading dataframe
+make_embeddings.py[LINE:87]# INFO     [2025-09-03 20:30:04,487] train Word2Vec model
+make_embeddings.py[LINE:99]# INFO     [2025-09-03 20:31:48,970] get token embeddings
+make_embeddings.py[LINE:107]# INFO     [2025-09-03 20:31:49,134] save embeddings dict
+make_embeddings.py[LINE:111]# INFO     [2025-09-03 20:31:49,514] pipeline finished successfully
+make_embeddings.py[LINE:60]# INFO     [2025-09-04 23:45:58,429] configuring paths
+make_embeddings.py[LINE:79]# INFO     [2025-09-04 23:45:58,430] reading dataframe
+make_embeddings.py[LINE:87]# INFO     [2025-09-04 23:46:10,078] train Word2Vec model
+make_embeddings.py[LINE:99]# INFO     [2025-09-04 23:51:19,075] get token embeddings
+make_embeddings.py[LINE:107]# INFO     [2025-09-04 23:51:19,182] save embeddings dict
+make_embeddings.py[LINE:111]# INFO     [2025-09-04 23:51:19,564] pipeline finished successfully
+make_embeddings.py[LINE:46]# INFO     [2025-09-05 00:43:07,572] configuring paths
+make_embeddings.py[LINE:55]# INFO     [2025-09-05 00:43:07,573] reading dataframe
+make_embeddings.py[LINE:62]# INFO     [2025-09-05 00:43:13,675] train Word2Vec model
+make_embeddings.py[LINE:73]# INFO     [2025-09-05 00:44:23,040] get token embeddings
+make_embeddings.py[LINE:87]# INFO     [2025-09-05 00:44:23,077] Vocab size: 45061
+make_embeddings.py[LINE:88]# INFO     [2025-09-05 00:44:23,078] save embeddings dict
+make_embeddings.py[LINE:92]# INFO     [2025-09-05 00:44:23,189] pipeline finished successfully

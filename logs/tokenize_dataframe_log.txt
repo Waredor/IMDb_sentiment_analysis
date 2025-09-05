@@ -34,3 +34,25 @@ tokenize_dataframe.py[LINE:79]# INFO     [2025-09-01 21:30:23,560] creating data
 tokenize_dataframe.py[LINE:85]# INFO     [2025-09-01 21:30:23,861] tokenize text data
 tokenize_dataframe.py[LINE:91]# INFO     [2025-09-01 21:30:58,222] saving data
 tokenize_dataframe.py[LINE:96]# INFO     [2025-09-01 21:31:00,660] pipeline finished successfully
+tokenize_dataframe.py[LINE:63]# INFO     [2025-09-03 15:59:30,020] configuring paths
+tokenize_dataframe.py[LINE:79]# INFO     [2025-09-03 15:59:30,026] creating dataframe
+tokenize_dataframe.py[LINE:85]# INFO     [2025-09-03 15:59:30,345] tokenize text data
+tokenize_dataframe.py[LINE:91]# INFO     [2025-09-03 16:00:04,151] saving data
+tokenize_dataframe.py[LINE:96]# INFO     [2025-09-03 16:00:06,454] pipeline finished successfully
+tokenize_dataframe.py[LINE:64]# INFO     [2025-09-03 17:28:40,389] configuring paths
+tokenize_dataframe.py[LINE:80]# INFO     [2025-09-03 17:28:40,390] creating dataframe
+tokenize_dataframe.py[LINE:86]# INFO     [2025-09-03 17:28:40,685] tokenize text data
+tokenize_dataframe.py[LINE:92]# INFO     [2025-09-03 17:29:14,607] saving data
+tokenize_dataframe.py[LINE:97]# INFO     [2025-09-03 17:29:16,908] pipeline finished successfully
+tokenize_dataframe.py[LINE:86]# INFO     [2025-09-03 20:18:50,796] configuring paths
+tokenize_dataframe.py[LINE:102]# INFO     [2025-09-03 20:18:50,797] creating dataframe
+tokenize_dataframe.py[LINE:108]# INFO     [2025-09-03 20:18:51,106] tokenize text data
+tokenize_dataframe.py[LINE:115]# INFO     [2025-09-03 20:19:40,164] saving data
+tokenize_dataframe.py[LINE:120]# INFO     [2025-09-03 20:19:43,096] pipeline finished successfully
+tokenize_dataframe.py[LINE:84]# INFO     [2025-09-05 00:39:12,077] configuring paths
+tokenize_dataframe.py[LINE:95]# INFO     [2025-09-05 00:39:12,081] creating dataframe
+tokenize_dataframe.py[LINE:101]# INFO     [2025-09-05 00:39:12,400] tokenize text data
+tokenize_dataframe.py[LINE:105]# INFO     [2025-09-05 00:40:20,513] Initial vocab size: 102614
+tokenize_dataframe.py[LINE:111]# INFO     [2025-09-05 00:41:25,656] Final vocab size after filtering: 45060
+tokenize_dataframe.py[LINE:113]# INFO     [2025-09-05 00:41:25,656] saving data
+tokenize_dataframe.py[LINE:117]# INFO     [2025-09-05 00:41:27,740] pipeline finished successfully

@@ -3,3 +3,6 @@ nltk~=3.9.1
 scikit-learn~=1.7.1
 PyYAML~=6.0.2
 joblib~=1.5.2
+gensim~=4.3.3
+torch~=2.8.0+cu126
+numpy~=1.26.4

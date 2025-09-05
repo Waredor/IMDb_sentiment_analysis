@@ -1,3 +1,7 @@
 data_path: D:\Python projects\IMDb_sentiment_analysis\data\IMDB Dataset_tokenized.csv
-output_model_filename: logistic_regression.pkl
+output_model_filename: rnn_model.pkl
 raw_data_path: D:\Python projects\Datasets\IMDb dataset\IMDB Dataset.csv
+embeddings_dir: D:\Python projects\IMDb_sentiment_analysis\data\glove.6B.100d.txt
+num_epochs: 5
+batch_size: 64
+lr0: 0.0001

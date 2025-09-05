@@ -29,3 +29,13 @@ logistic_regression_pipeline.py[LINE:75]# INFO     [2025-09-01 21:12:07,255] mod
 logistic_regression_pipeline.py[LINE:79]# INFO     [2025-09-01 21:12:07,726] model evaluate
 logistic_regression_pipeline.py[LINE:86]# INFO     [2025-09-01 21:12:07,772] Accuracy: 0.8979, Positive precision: 0.9134748958126613, Negative precision: 0.8820802257609353
 logistic_regression_pipeline.py[LINE:91]# INFO     [2025-09-01 21:12:07,773] save model
+pipeline.py[LINE:37]# INFO     [2025-09-03 20:39:52,484] configure paths
+pipeline.py[LINE:50]# INFO     [2025-09-03 20:39:52,490] load data
+pipeline.py[LINE:56]# INFO     [2025-09-03 20:39:53,740] Positive reviews: 25000, negative reviews: 25000
+pipeline.py[LINE:58]# INFO     [2025-09-03 20:39:53,741] creating tf-idf matrix
+pipeline.py[LINE:63]# INFO     [2025-09-03 20:40:01,989] train test split
+pipeline.py[LINE:72]# INFO     [2025-09-03 20:40:02,024] model init
+pipeline.py[LINE:76]# INFO     [2025-09-03 20:40:02,024] model fit
+pipeline.py[LINE:80]# INFO     [2025-09-03 20:40:04,218] model evaluate
+pipeline.py[LINE:87]# INFO     [2025-09-03 20:40:04,271] Accuracy: 0.9016, Positive precision: 0.9130779916650129, Negative precision: 0.8899415440435396
+pipeline.py[LINE:92]# INFO     [2025-09-03 20:40:04,271] save model
